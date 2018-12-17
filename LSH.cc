@@ -40,4 +40,5 @@ set<pair<int, int> > LSH(int n, int k, int h, int b, double threshold, vector<st
       delete p;
     }
   }
+  return R;
 }

@@ -21,7 +21,7 @@ vector<function<long long(long long)> > quadratic_hash(int n, int mod) {
   return R;
 }
 
-vector<function<long long(long long)> > bit_permutation_hash(int n, int mod) {
+vector<function<long long(long long)> > bit_permutation_hash(int n) {
   vector<function<long long(long long)> > R(n);
   vector<int> b(64);
   iota(b.begin(), b.end(), 0);
